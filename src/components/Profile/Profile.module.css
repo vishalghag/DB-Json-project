@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid navy;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: burlywood;
+}
+
+.txt{
+    color: white;
+}
