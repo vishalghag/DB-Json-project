@@ -1,10 +1,27 @@
 import styles from './Profile.module.css'
-const Profile = ({fname}) =>{
+const Profile = ({fname, editData, delteData, tog, saveData}) =>{
 
     return(
         <>
         <div className={styles.container}>
-            <div className={styles.txt}>{fname}</div>
+        {tog ? 
+        <>
+            <div className={styles.txt}>{fname}
+           
+           </div>
+           <span className={styles.editIcon}>{editData}</span>
+           <span className={styles.deleteIcon}>{delteData}</span>
+       </>
+       :
+       <>
+            <div className={styles.txt}>{fname}
+           
+           </div>
+           <span className={styles.editIcon}>{saveData}</span>
+           <span className={styles.deleteIcon}>{delteData}</span>
+       </>
+        }
+
         </div>
         </>
     )

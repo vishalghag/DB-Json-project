@@ -5,3 +5,10 @@
     height: 100px;
     margin: 0px;
 }
+
+.searchData{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    float: left;
+}

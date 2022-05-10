@@ -1,13 +1,23 @@
 .container{
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    /* justify-content: center; */
     border-radius: 20px;
     border: 2px solid navy;
     padding: 10px;
     margin-top: 10px;
     background-color: burlywood;
+    width: 100%;
 }
 
 .txt{
     color: white;
+}
+
+.editIcon{
+    float: right;
+    color: blue;
+}
+
+.deleteIcon{
+    color: red;
 }
